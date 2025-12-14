@@ -1,0 +1,22 @@
+name: harmonia-occulta
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - opencv
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pip:
+    - music21
+    - mido
+    - python-rtmidi
+    - ipywidgets
+    - tqdm
